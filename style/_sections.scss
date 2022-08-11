@@ -1,0 +1,207 @@
+$buttonbackgroundcolor:rgb(14, 87, 14);
+
+.navbar {
+    background-image: url("./picture/world.png");
+    background-size: contain;
+    color: aliceblue;
+    height: 95vh;
+    font-size: 40px;
+
+
+    &__home {
+
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        height: 8%;
+
+    }
+
+    &__navmenu {
+        display: flex;
+        list-style-type: none;
+        width: 600px;
+        justify-content: space-around;
+        font-size: 30px;
+        font-family: "Kanit", sans-serif;
+
+    }
+
+    &__item {
+        text-decoration: none;
+    }
+
+    &__h1 {
+        font-size: 60px;
+        margin: 0;
+    }
+
+    &__h3 {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    &__hello {
+        margin-left: 80px;
+        margin-bottom: 200px;
+    }
+
+    &__initials {
+        margin-left: 5px;
+    }
+
+    &__button {
+        width: 200px;
+        height: 60px;
+        background-color: $buttonbackgroundcolor;
+        color: white;
+        border-radius: 40px;
+        text-align: center;
+        align-items: center;
+        font-weight: lighter;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    &__hello-area {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+    }
+
+    &__button:hover {
+        background-color: brown;
+    }
+
+    &__button:active {
+        background-color: darkred;
+        color: burlywood;
+    }
+}
+
+#contact-me {
+    background-color: $buttonbackgroundcolor;
+    color: white;
+    border-radius: 5px;
+
+
+}
+
+#contact-me:hover {
+    background-color: brown;
+}
+
+
+.middle {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+
+
+    &__title {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    &_picture {
+        display: flex;
+        align-items: center;
+    }
+}
+
+#middle__mypicture {
+    width: 300px;
+    border-radius: 130px;
+}
+
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+
+    &__project-temple {
+        margin: 10px;
+        width: 300px;
+        height: 500px;
+        box-shadow: 5px 5px 20px grey;
+        border-radius: 10px;
+    }
+
+    &__project-temple:hover {
+        width: 310px;
+        height: 510px;
+    }
+
+    &__projects-cards {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    &__link-to-project {
+        text-decoration: none;
+        color: darkgray;
+        margin-bottom: 10px;
+    }
+
+    &__link-to-project:hover {
+        cursor: grab;
+    }
+
+    &__project-image {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 200px;
+        border-radius: 20px;
+    }
+
+    &__tech {
+        height: 30vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+        margin: 10px;
+        padding: 10px 0;
+        flex-wrap: wrap;
+    }
+}
+
+.project-section__tech {
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    margin: 0 -20px;
+    padding: 10px 0;
+    flex-wrap: wrap;
+}
+
+
+.contactme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    &__social {
+        padding: 10px;
+    }
+
+    &__h4 {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Mochiy+Pop+One&family=Mouse+Memoirs&display=swap');
+
+$primary-font: "Mochiy Pop One",
+sans-serif;
+$backroundfirstsection:url("./picture/world.png");
+
+html {
+    scroll-behavior: smooth
+}
+
+* {
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+body {
+    font-family: $primary-font
+        /* font-family: "Mouse Memoirs", sans-serif; */
+}
+
+section {
+    background-color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 800px) {
+    .project-section__projects-cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .project-section__tech {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .navbar__navmenu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
