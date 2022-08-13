@@ -50,5 +50,28 @@ a {
     .navbar__navmenu {
         display: flex;
         flex-wrap: wrap;
+
+
     }
+
+    .middle {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #middle__mypicture {
+        margin: 10px;
+    }
+
+    .navbar__hello-area {
+        margin-top: 60px;
+    }
+
+    .navbar__h1 {
+        margin-top: 50px;
+    }
+
+    // .navbar__home {
+    //     height: 25%;
+    // }
 }
