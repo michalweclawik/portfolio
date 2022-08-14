@@ -67,19 +67,20 @@ a {
   color: aliceblue;
   height: 95vh;
   font-size: 40px;
+  width: 100vw;
 }
 .navbar__home {
   display: flex;
   justify-content: space-between;
   background-color: black;
   height: auto;
+  width: 100%;
 }
 .navbar__navmenu {
   display: flex;
   list-style-type: none;
-  width: 600px;
   justify-content: space-around;
-  font-size: 30px;
+  font-size: 25px;
   font-family: "Kanit", sans-serif;
 }
 .navbar__item {

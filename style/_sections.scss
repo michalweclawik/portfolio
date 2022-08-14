@@ -6,6 +6,7 @@ $buttonbackgroundcolor:rgb(14, 87, 14);
     color: aliceblue;
     height: 95vh;
     font-size: 40px;
+    width: 100vw;
 
 
 
@@ -16,15 +17,15 @@ $buttonbackgroundcolor:rgb(14, 87, 14);
         justify-content: space-between;
         background-color: black;
         height: auto;
+        width: 100%;
 
     }
 
     &__navmenu {
         display: flex;
         list-style-type: none;
-        width: 600px;
         justify-content: space-around;
-        font-size: 30px;
+        font-size: 25px;
         font-family: "Kanit", sans-serif;
 
 
