@@ -68,13 +68,14 @@ a {
   height: 95vh;
   font-size: 40px;
   width: 100vw;
+  display: flex;
 }
 .navbar__home {
   display: flex;
   justify-content: space-between;
   background-color: black;
   height: auto;
-  width: 100%;
+  width: auto;
 }
 .navbar__navmenu {
   display: flex;
@@ -96,7 +97,7 @@ a {
   font-size: 30px;
 }
 .navbar__hello {
-  margin-left: 80px;
+  margin-left: 50px;
   margin-bottom: 200px;
 }
 .navbar__initials {
