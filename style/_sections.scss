@@ -8,9 +8,10 @@ $buttonbackgroundcolor:rgb(14, 87, 14);
     font-size: 40px;
 
 
+
     &__home {
 
-        padding-top: 10px;
+
         display: flex;
         justify-content: space-between;
         background-color: black;
@@ -26,11 +27,13 @@ $buttonbackgroundcolor:rgb(14, 87, 14);
         font-size: 30px;
         font-family: "Kanit", sans-serif;
 
+
+
     }
 
     &__item {
         text-decoration: none;
-        margin: 10px;
+        margin: 5px;
     }
 
     &__h1 {
@@ -135,6 +138,11 @@ $buttonbackgroundcolor:rgb(14, 87, 14);
         height: 500px;
         box-shadow: 5px 5px 20px grey;
         border-radius: 10px;
+    }
+
+    &__h2 {
+        font-size: 25px;
+        margin: 10px;
     }
 
     &__project-temple:hover {

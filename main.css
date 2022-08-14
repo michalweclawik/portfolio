@@ -36,6 +36,7 @@ a {
   .project-section__tech {
     display: flex;
     flex-wrap: wrap;
+    margin: 10px;
   }
 
   .navbar__navmenu {
@@ -68,7 +69,6 @@ a {
   font-size: 40px;
 }
 .navbar__home {
-  padding-top: 10px;
   display: flex;
   justify-content: space-between;
   background-color: black;
@@ -84,7 +84,7 @@ a {
 }
 .navbar__item {
   text-decoration: none;
-  margin: 10px;
+  margin: 5px;
 }
 .navbar__h1 {
   font-size: 50px;
@@ -172,6 +172,10 @@ a {
   height: 500px;
   box-shadow: 5px 5px 20px grey;
   border-radius: 10px;
+}
+.project-section__h2 {
+  font-size: 25px;
+  margin: 10px;
 }
 .project-section__project-temple:hover {
   width: 310px;
