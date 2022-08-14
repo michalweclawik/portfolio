@@ -36,6 +36,7 @@ a {
   .project-section__tech {
     display: flex;
     flex-wrap: wrap;
+    margin: 10px;
   }
 
   .navbar__navmenu {
