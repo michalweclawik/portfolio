@@ -75,7 +75,7 @@ a {
   justify-content: space-between;
   background-color: black;
   height: auto;
-  width: auto;
+  width: 100%;
 }
 .navbar__navmenu {
   display: flex;
