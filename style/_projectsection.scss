@@ -1,0 +1,92 @@
+$buttonbackgroundcolor:rgb(14, 87, 14);
+
+
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+
+    &__project-temple {
+        margin: 10px;
+        width: 300px;
+        height: 500px;
+        box-shadow: 5px 5px 20px grey;
+        border-radius: 10px;
+    }
+
+    &__h2 {
+        font-size: 25px;
+        margin: 10px;
+    }
+
+    &__project-temple:hover {
+        width: 310px;
+        height: 510px;
+    }
+
+    &__projects-cards {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    &__link-to-project {
+        text-decoration: none;
+        color: darkgray;
+        margin-bottom: 10px;
+    }
+
+    &__link-to-project:hover {
+        cursor: grab;
+    }
+
+    &__project-image {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 200px;
+        border-radius: 20px;
+    }
+
+    &__tech {
+        height: 30vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+        margin: 10px;
+        padding: 10px 0;
+        flex-wrap: wrap;
+    }
+}
+
+.project-section__tech {
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    margin: 0 -20px;
+    padding: 10px 0;
+    flex-wrap: wrap;
+}
+
+
+.contactme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    &__social {
+        padding: 10px;
+    }
+
+    &__h4 {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,23 @@
+.middle {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+
+
+    &__title {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+
+
+    &_picture {
+        display: flex;
+        align-items: center;
+    }
+}
+
+#middle__mypicture {
+    width: 300px;
+    border-radius: 130px;
+}
