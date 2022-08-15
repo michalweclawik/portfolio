@@ -34,6 +34,8 @@
   font-size: 30px;
 }
 .navbar__hello {
+  display: flex;
+  flex-direction: column;
   margin-left: 50px;
   margin-bottom: 200px;
 }

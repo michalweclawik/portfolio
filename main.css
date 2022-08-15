@@ -64,6 +64,10 @@ a {
   .middle__title {
     font-size: 25px;
   }
+
+  .middle__title {
+    font-size: 25px;
+  }
 }
 .navbar {
   background-image: url("./picture/world.png");
@@ -101,6 +105,8 @@ a {
   font-size: 30px;
 }
 .navbar__hello {
+  display: flex;
+  flex-direction: column;
   margin-left: 50px;
   margin-bottom: 200px;
 }
