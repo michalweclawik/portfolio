@@ -58,7 +58,11 @@ a {
   }
 
   .navbar__h1 {
-    margin-top: 50px;
+    margin-top: 40px;
+  }
+
+  .middle__title {
+    font-size: 30px;
   }
 }
 .navbar {
