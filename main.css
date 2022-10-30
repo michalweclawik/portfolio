@@ -26,9 +26,19 @@ a {
   color: aliceblue;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .project-section__projects-cards {
     display: flex;
+    flex-wrap: wrap;
+  }
+
+  .middle {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .middle__des {
+    max-width: 80vw;
     flex-wrap: wrap;
   }
 }
@@ -128,13 +138,14 @@ a {
   font-size: 40px;
   margin-bottom: 20px;
 }
-.middle__title {
-  font-size: 40px;
-  margin-bottom: 20px;
-}
 .middle_picture {
   display: flex;
   align-items: center;
+}
+
+.middle__des {
+  width: 800px;
+  line-height: 200%;
 }
 
 #middle__mypicture {
@@ -147,6 +158,9 @@ a {
   flex-direction: column;
   text-align: center;
   padding: 80px;
+}
+.project-section__p {
+  margin-top: 10px;
 }
 .project-section__project-temple {
   margin: 10px;
@@ -186,6 +200,17 @@ a {
   align-items: center;
   justify-content: space-around;
   margin: 10px;
+  padding: 10px 0;
+  flex-wrap: wrap;
+}
+
+.project-section__tech {
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 -20px;
   padding: 10px 0;
   flex-wrap: wrap;
 }

@@ -26,9 +26,19 @@ a {
   color: aliceblue;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .project-section__projects-cards {
     display: flex;
+    flex-wrap: wrap;
+  }
+
+  .middle {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .middle__des {
+    max-width: 80vw;
     flex-wrap: wrap;
   }
 }
