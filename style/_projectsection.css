@@ -11,6 +11,9 @@
   box-shadow: 5px 5px 20px grey;
   border-radius: 10px;
 }
+.project-section__p {
+  margin-top: 10px;
+}
 .project-section__h2 {
   font-size: 25px;
   margin: 10px;
