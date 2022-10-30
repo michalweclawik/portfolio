@@ -12,6 +12,11 @@
   align-items: center;
 }
 
+.middle__des {
+  width: 800px;
+  line-height: 200%;
+}
+
 #middle__mypicture {
   width: 300px;
   border-radius: 130px;
